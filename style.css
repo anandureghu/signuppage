@@ -1,0 +1,102 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #16213E; */
+    background-color: #1A1A2E;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    /* background-color: linear-gradient(#1488CC,#2B32B2); */
+    background-color: #2a2a72;
+    background-image: linear-gradient(#1488CC, #2B32B2);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 300px;
+    padding: 30px 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    
+    text-align: center;
+}
+
+.inputs{
+    display: grid;
+    text-align: left;
+}
+
+.icon{
+    position:absolute;
+    top: 20;
+    right: 20;
+    cursor: pointer;
+}
+
+.form h1{
+    font-size: 1.4rem;
+}
+label{
+    font-size: 0.9rem;
+}
+
+input, input::placeholder{
+    background: transparent;
+    border: none;
+    padding: 5px 0px;
+    color: rgba(255,255,255, 0.6);
+    outline: none;
+    font-size: 1.1rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+
+
+input:hover,input:active{
+    border-bottom: 4px solid white;
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+input:last-child{
+    border-bottom: none;
+}
+
+
+
+.form p{
+    font-size: 0.8rem;
+    color: rgba(255,255,255, 0.6);
+}
+
+.btn{
+    background: white;
+    color: #2B32B2;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: transparent;
+    color: white;
+    transition: 0.2s ease-in-out;
+    border: 3px solid white;
+}
+
+.login{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5px;
+    text-decoration: none;
+}
